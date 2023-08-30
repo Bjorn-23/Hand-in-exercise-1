@@ -1,0 +1,81 @@
+div.header {
+    border:1px solid darkgrey;
+    background-color: #beb5c7;
+    margin: 5% 15% 2% 15%;
+    border-radius: 5px;
+    text-align: center;
+    color: #3a3725;
+}
+h1 {
+    
+    font-size: 90px;
+    margin: 10px;    
+}
+h4 {
+    font-size: 20px;
+    word-spacing: 20px;
+    text-transform: uppercase;
+}
+h6 {
+    font-size: 10x;
+    letter-spacing: 1px;
+}
+div.menubar {
+    border:1px solid darkgrey;
+    background-color: #beb5c7;
+    color: #3a3725;
+    padding: 15px;
+    margin: 2% 15% 2% 15%;
+    border-radius: 5px;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: #3a3725;
+    text-transform: uppercase;
+   
+}
+.menubar a {
+    /* margin: 14%; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+/* div img {
+    display: inline-block;
+    /* margin-left: 13%;  */
+    /* border: 5px solid #beb5c7; */ */
+}
+#bjorn {
+    /* margin-left: 15% */
+    /* margin-left: 0dvw;
+    margin-right: 10dvw; */
+
+}
+#fredrik {
+    /* margin-right: 15%; */
+    /* margin-left: 9dvw; */
+}
+#mattias {
+    /* margin-right: 15%; */
+    /* margin-left: 8dvw; */
+}
+#pawel {
+    /* margin-right: 15%; */
+    /* margin-left: 10dvw;
+    margin-right: 0dvw; */
+    
+}
+
+.footer {
+    border: 1px solid darkgrey;
+    /* margin: 2% 15%; */
+    background-color: #beb5c7;
+    text-align: center;
+}
+div {
+    /* margin: 2dvh 20dvw 1dvh 20dvw; */
+}
+.bandimages {
+    margin: var(#bjorn)
+    
+}
