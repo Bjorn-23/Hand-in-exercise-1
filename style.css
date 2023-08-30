@@ -16,10 +16,6 @@ h4 {
     word-spacing: 20px;
     text-transform: uppercase;
 }
-h6 {
-    font-size: 10x;
-    letter-spacing: 1px;
-}
 div.menubar {
     border:1px solid darkgrey;
     background-color: #beb5c7;
@@ -65,19 +61,20 @@ img {
 form {
     margin: 2% 50% 2% 35%;
 }
+.form {
+    margin: 0% 20% 0% 20%;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #beb5c7; 
+    color: #3a3725;
+    font-size: 18px; 
+   }
+
 #bio {
     margin: 0% 20% 0% 20%;
+    border-radius: 5px;
     padding: 50px;
     background-color: #beb5c7; 
     color: #3a3725; 
     text-align: center;
-    /* columns: 2;
-    column-gap: 40px; */
 }
-
-/* div.images {
-    display: inline-block;
-    float: 0 left ;
-    border: 5px solid #beb5c7;
-    border-radius: 5px;
-} */
