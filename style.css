@@ -1,7 +1,7 @@
 div.header {
     border:1px solid darkgrey;
     background-color: #beb5c7;
-    margin: 5% 15% 2% 15%;
+    margin: 5% 20% 2% 20%;
     border-radius: 5px;
     text-align: center;
     color: #3a3725;
@@ -25,7 +25,7 @@ div.menubar {
     background-color: #beb5c7;
     color: #3a3725;
     padding: 15px;
-    margin: 2% 15% 2% 15%;
+    margin: 2% 20% 2% 20%;
     border-radius: 5px;
     text-align: center;
 }
@@ -36,46 +36,48 @@ a {
    
 }
 .menubar a {
-    /* margin: 14%; */
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
+    margin: 5%;
 }
-/* div img {
-    display: inline-block;
-    /* margin-left: 13%;  */
-    /* border: 5px solid #beb5c7; */ */
-}
-#bjorn {
-    /* margin-left: 15% */
-    /* margin-left: 0dvw;
-    margin-right: 10dvw; */
-
-}
-#fredrik {
-    /* margin-right: 15%; */
-    /* margin-left: 9dvw; */
-}
-#mattias {
-    /* margin-right: 15%; */
-    /* margin-left: 8dvw; */
-}
-#pawel {
-    /* margin-right: 15%; */
-    /* margin-left: 10dvw;
-    margin-right: 0dvw; */
-    
-}
-
 .footer {
     border: 1px solid darkgrey;
-    /* margin: 2% 15%; */
+    border-radius: 5px;
     background-color: #beb5c7;
     text-align: center;
+    margin: 2% 20% 2% 20%;
 }
-div {
-    /* margin: 2dvh 20dvw 1dvh 20dvw; */
+li {
+    display: inline;
+    list-style-type: none;
+    margin: 3dvw;
 }
-.bandimages {
-    margin: var(#bjorn)
-    
+img {
+    border: 5px solid #beb5c7;
+    border-radius: 5px;
 }
+#bjorn {
+    margin-left: 20%;
+}
+#pawel {
+    margin-right: 20%;
+}
+form {
+    margin: 2% 50% 2% 35%;
+}
+#bio {
+    margin: 0% 20% 0% 20%;
+    padding: 50px;
+    background-color: #beb5c7; 
+    color: #3a3725; 
+    text-align: center;
+    /* columns: 2;
+    column-gap: 40px; */
+}
+
+/* div.images {
+    display: inline-block;
+    float: 0 left ;
+    border: 5px solid #beb5c7;
+    border-radius: 5px;
+} */
