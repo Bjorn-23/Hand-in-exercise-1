@@ -1,0 +1,129 @@
+.header{
+    background: #beb5c7;
+    width: 1200px;
+    max-width: 100%;
+    margin: 80px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid #6f6f6f;
+    border-radius: 5px;;
+}
+.header h1{
+    text-align: center;
+    font-size: 74px;
+    font: arial;
+}
+.header h4{
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+.menubar{
+    background: #beb5c782;
+    width: 1200px;
+    max-width: 100%;
+    margin: 40px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid #6f6f6f;
+    border-radius: 5px;
+}
+.menubar ul{
+    white-space: nowrap;
+    margin: 0 auto;
+    text-align: center;
+}
+.menubar ul li{
+    width: 25%;
+    display: inline-block;
+    font-size: 20px;
+    
+}
+.menubar ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+.images{
+    background: #beb5c7;
+    width: 1200px;
+    max-width: 100%;
+    margin: 40px auto;
+    padding: 30px;
+    box-sizing: border-box;
+    border: 2px solid #6f6f6f;
+    border-radius: 5px;
+}
+.images ul{
+    white-space: nowrap;
+    text-align: center;
+    margin: 0 auto;
+    }
+.images ul li{
+    display: inline-block;
+    width: 25%
+}
+.images img{
+    border: 2px solid #6f6f6f;
+    border-radius: 5px;
+    
+}
+.footer{
+    background: #beb5c7;
+    width: 1200px;
+    max-width: 100%;
+    margin: 40px auto;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid #6f6f6f;
+    border-radius: 5px;
+}
+.footer p{
+    text-align: center;
+}
+.footer p span{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+/* NEDAN CSS nedan endast för sidan boka.html */
+.form{
+    background: #beb5c7;
+    width: 1200px;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 80px auto;
+    border: 2px solid #6f6f6f;
+    border-radius: 5px;
+}
+.form form{
+    margin: 2% 25%;
+    text-align: left;
+}
+form{
+    display: table;
+}
+form p{
+display: table-row;
+}
+form label{
+display: table-cell;
+}
+form input{
+display: table-cell;
+}
+/* OVAN CSS nedan endast för sidan boka.html */
+.bio{
+    background: #beb5c7;
+    width: 1200px;
+    max-width: 100%;
+    margin: 80px auto;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 2px solid #6f6f6f;
+    border-radius: 5px;
+
+
+
+
+}
