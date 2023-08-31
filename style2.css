@@ -2,7 +2,7 @@
     background: #e1dae7;
     width: 1200px;
     max-width: 100%;
-    margin: 40px auto;
+    margin: 10px auto;
     padding: 10px;
     box-sizing: border-box;
     border: 2px solid #6f6f6f;
@@ -36,7 +36,7 @@
     background: #e1dae7;
     width: 1200px;
     max-width: 100%;
-    margin: 40px auto;
+    margin: 10px auto;
     padding: 20px;
     box-sizing: border-box;
     border: 2px solid #6f6f6f;
@@ -63,7 +63,7 @@
     background: #e1dae7;
     width: 1200px;
     max-width: 100%;
-    margin: 40px auto;
+    margin: 10px auto;
     padding: 30px;
     box-sizing: border-box;
     border: 2px solid #6f6f6f;
@@ -77,6 +77,9 @@
 .images ul li{
     display: inline-block;
     width: 25%
+    /* display: inline-flex;
+    justify-content: space-between;
+    margin: 40px; */
 }
 .images img{
     border: 2px solid #6f6f6f;
@@ -87,7 +90,7 @@
     background: #e1dae7;
     width: 1200px;
     max-width: 100%;
-    margin: 40px auto;
+    margin: 10px auto;
     padding: 10px;
     box-sizing: border-box;
     border: 2px solid #6f6f6f;
@@ -106,7 +109,7 @@
     width: 1200px;
     max-width: 100%;
     box-sizing: border-box;
-    margin: 80px auto;
+    margin: 10px auto;
     border: 2px solid #6f6f6f;
     border-radius: 5px;
     }
@@ -119,7 +122,7 @@
     background: #e1dae7;
     width: 1200px;
     max-width: 100%;
-    margin: 80px auto;
+    margin: 10px auto;
     box-sizing: border-box;
     padding: 20px;
     border: 2px solid #6f6f6f;
@@ -128,17 +131,24 @@
 .bio p{
     font-family: Arial, Helvetica, sans-serif;
 } 
-/* /* NEDAN CSS nedan endast för sidan boka.html * }
-form{
-    display: table;
+
+/* responsive media queries */
+
+@media screen and (max-width: 1080px){
+   .header h1{
+    font-size: 75px;
+   } 
+   .header h4{
+    font-size: 25px;
+   } 
+    .menubar .pages li a{
+    font-size: 18px;
+   }
 }
-form p{
-display: table-row;
+@media screen and (max-width: 700px){
+    .images ul li{
+        display: flex;
+        justify-content: space-between;
+        margin: 20px;
+    }
 }
-form label{
-display: table-cell;
-}
-form input{
-display: table-cell;
-} */
-/* OVAN CSS nedan endast för sidan boka.html */
