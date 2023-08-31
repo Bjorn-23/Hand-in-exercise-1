@@ -4,17 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- <link rel="stylesheet" href="style.css"> -->
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>BHB - Boka</title>
 </head>
 
 <body>
 
     <div class="header">
+
+        <section class="logos">
+            <ul>
+                <li id="spotify"><a href="#"><i class='bx bxl-spotify'></i></a></li>
+                <li id="soundcloud"><a href="#"><i class='bx bxl-soundcloud'></i></a></li>
+                <li id="youtube"><a href="#"><i class='bx bxl-youtube'></i></a></li>
+                <li id="instagram"><a href="https://www.instagram.com/barryhallsband"><i class='bx bxl-instagram'></i></a></li>
+                <li id="messenger"><a href="#"><i class='bx bxl-messenger'></i></a></li>
+                <li id="facebook"><a href="https://www.facebook.com/barryhallsband"><i class='bx bxl-facebook'></i></a></li>
+                
+            </ul>
+        </section>
+
         <h1> <strong>B</strong><small>arry</small> <strong>H</strong><small>alls</small>
             <strong>B</strong><small>and</small>
         </h1>
@@ -22,46 +36,55 @@
             Ditt partyband i NV skåne!
         </h4>
 
+        
+
     </div>
 
 
-        <div class="menubar">
-            <ul>
-                <li><a href="index.html">Hem</a></li>
-                <li><a href="om.html">Om</a></li>
-                <li><a href="boka.html">Boka</a></li>
-                <li><a href="https://www.soundcloud.com">Soundcloud</a></li>
-            </ul>    
+    <div class="menubar">
+        <ul class="pages">
+            <li><a href="index.html">Hem</a></li>
+            <li><a href="om.html">Om</a></li>
+            <li><a href="boka.html">Boka</a></li>
+            <!-- <li><a href="https://www.soundcloud.com">Soundcloud</a></li> -->
+        </ul>
     </div>
+
 
     <div class="form">
         <form method="post" action="mailto:bjornandersson84@gmail.com">
             <p>
-                <label for="namn">Namn*</label>
-                <input name="namn" type="text" placeholder="skriv namn här..." required>
-            </p>    
-            <br>
-            <p>    
-                <label for="email">Email*</label>
-                <input name="email" type="email" placeholder="skriv email här..." required>
+                <label for="namn">Namn*</label><br>
+                <input name="namn" type="text" placeholder="skriv namn här..." required style="width:230px">
             </p>
-            <br>
+            <!-- <br> -->
             <p>
-                <label for="phone">Telefon*</label>
-                <input name="phone" type="number" placeholder="skriv telefonnummer här..." required>
-            </p>    
-            <br>
+                <label for="email">Email*</label><br>
+                <input name="email" type="email" placeholder="skriv email här..." required style="width:230px">
+            </p>
+            <!-- <br> -->
             <p>
-            <label for="message">Meddelande*</label><br>
-            <textarea name="message" id="message" cols="30" rows="5" placeholder="Skriv ditt meddelande här..." required></textarea>
-              
-            
-            <br><br>
+                <label for="phone">Telefon*</label><br>
+                <input name="phone" type="number" placeholder="skriv telefonnummer här..." required style="width:230px">
+            </p>
+            <!-- <br> -->
+            <p>
+                <label for="message">Meddelande*</label><br>
+                <textarea name="message" id="message" cols="30" rows="5" placeholder="Skriv ditt meddelande här..."
+                    required></textarea>
 
-            <input type="submit" value="Skicka in">
+
+                <br><br>
+
+                <input type="submit" value="Skicka in">
 
         </form>
+
+
     </div>
+
+
+
 
     <div class="footer">
         <p><strong>&copy; BHB Entertainment AB</strong> - alla rättigheter reserverade </p>
